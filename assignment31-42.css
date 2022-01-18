@@ -1,0 +1,85 @@
+body{
+    height: 100vh;
+    width: 100vh;
+    background: rgb(54,56,41);
+background: linear-gradient(90deg, rgba(54,56,41,1) 7%, rgba(204,211,154,1) 51%, rgba(3,17,20,1) 94%);
+display:flex;
+align-items: center;
+justify-content: center;
+color: white;
+}
+
+.container{
+    position: absolute;
+    height: 500px;
+    width: 80%;
+    border: 2px solid red;
+    left:10%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    background: rgba(54,56,41,1);
+}
+.col{
+    border: 1px solid gainsboro;
+}
+#txt{
+    margin:0;
+    padding:0;
+    text-align: center;
+    font-size: larger;
+}
+.inp{
+    width: 85%;
+    height: 35px;
+    margin-left: 30px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px 0px black;
+    margin: 0;
+    margin-bottom:5px;
+
+}
+.btn{
+    width:14%;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    margin-left: 0.5px;
+}
+button{
+    text-align: center;
+    text-decoration: none;
+}
+p{
+    background: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: large;
+}
+.r1{
+    display: flex;
+    flex-direction: row;
+    margin:0;
+    padding: 0;
+    text-align: center;
+}
+.b1{
+    width: 45%;
+    transition: 0.5s ease-in-out;
+    font-weight: 400;
+    word-wrap: break-word;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+.cnt{
+    height: 95%;
+}
+.b1:hover {
+    background: red;
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+  }
+#output{
+    margin-top: 30px;
+}
