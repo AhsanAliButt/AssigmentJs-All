@@ -28,6 +28,7 @@ body{
     -webkit-background-clip: text;
     color:transparent;
     background-size:cover;
+    transition: ;
 }
 .a1::after{
     content: "";
@@ -54,3 +55,23 @@ background: linear-gradient(90deg, rgba(54,56,41,1) 0%, rgba(161,17,110,1) 24%, 
     position:static;
     
 }
+.dropdown .dropdown-menu {
+    -webkit-transition: all 0.32s;
+    -moz-transition: all 0.32s;
+    -ms-transition: all 0.32s;
+    -o-transition: all 0.32s;
+    transition: all 0.32s;
+
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateX(-25%) scaleY(0);
+    transform-origin: top;
+    transition: 1s;
+  }
+
+  .dropdown-menu.show {
+    opacity: 1;
+    transform: translateX(-25%) scaleY(1);
+    border-radius: 10px;
+  }
