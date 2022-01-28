@@ -156,14 +156,21 @@ if (price>1000) {
 }else{
     var taxRate=8;
 }
-var tax=calculateTax(price,tax)
+var tax=calculateTax(price,taxRate)
 var total=price+tax;
+console.log(total)
 return total;
 }
-
 document.querySelector('.alert9').addEventListener("click", () => {
     var price=+prompt("Enter Price")
-    var total=calculateTax(price);
+    var total=calculateTotal(price);
+    let output=`"Total:"${total}`
+    showOutput(output)
+
+})
+//if Else Statement
+document.querySelector('.alert10').addEventListener("click", () => {
+    let total="<code> <h1> <h2> </code>"
     let output=`"Total:"${total}`
     showOutput(output)
 
