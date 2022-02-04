@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:rgb(20,22,2);
+    background: linear-gradient(120deg, rgba(20,22,2,1) 18%, rgba(161,17,22,1) 30%, rgba(9,50,225,1) 42%, rgba(134,12,33,1) 65%, rgba(3,17,20,1) 90%);
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Bebas Neue', cursive;
+}
+.id{
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px black;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.a1:hover{
+    background: url('https://thumbs.gfycat.com/ExcellentNiftyAsiandamselfly.webp');
+    -webkit-background-clip: text;
+    color:transparent;
+    background-size:2px;
+}
+.z1:hover{
+    border: 2px solid red;
+    border-end-end-radius: 30%;
+    border-start-start-radius: 30%;
+    background-size:cover;
+    transition:1s ;
+    background-color: black;
+    background-size:auto;
+}
+.a1::after{
+    content: "";
+    height: 4px;
+    width: 0;
+    background: red;
+    transition: 1s;
+    display: block ;
+    margin:auto;
+
+}
+.a1:hover::after{
+    width: 100%;
+    box-shadow:5px solid black;
+    text-shadow: 5px solid black;
+    background: rgb(54,56,41);
+background: linear-gradient(90deg, rgba(54,56,41,1) 0%, rgba(161,17,110,1) 24%, rgba(134,12,33,1) 60%, rgba(3,17,20,1) 89%);
+}
+.dropdown .dropdown-menu {
+    -webkit-transition: all 0.32s;
+    -moz-transition: all 0.32s;
+    -ms-transition: all 0.32s;
+    -o-transition: all 0.32s;
+    transition: all 0.32s;
+
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateX(-25%) scaleY(0);
+    transform-origin: top;
+    transition: 1s;
+  }
+
+  .dropdown-menu.show {
+    opacity: 1;
+    transform: translateX(-25%) scaleY(1);
+    border-radius: 10px;
+  }
+@media screen and (max-width:768px){
+    .z1:hover{
+        border: none;
+        border-end-end-radius:1%;
+        border-start-start-radius: 1%;
+        background-size:cover;
+        transition:0s ;
+        background-color: transparent;
+        background-size:auto;
+    }
+          
+}
+.c1{
+    position: absolute;
+    top:25%;
+    left:10%;
+    box-shadow: 5px 5px 25px 30px black;
+    width: 35%;
+}
+.b1{
+    border-bottom: 3px solid black;
+    border-radius: 250px 0px 250px 0px;
+    background-color: #020223;
+    letter-spacing: 4px;
+    transition: 0.5s;
+    margin: 2px;
+    text-decoration: none;
+}
+.b2{
+    overflow: hidden;
+    border-radius: 0px 250px 0px 250px;
+    margin: 2px;
+    background-color: #020223;
+    box-shadow: 0px 20px 35px rgba(0,0,0,0.3);
+    letter-spacing: 4px;
+    transition: 0.5s;
+    border-bottom: 3px solid black;
+}
