@@ -72,7 +72,7 @@ function Plan(name,price,pages){
   this.price=price;
   this.pages=pages;
 }
-let plan1=new Plan("Basic",400,100);
+let plan1 =new Plan("Basic",400,100);
 console.log(plan1)
 for (i = 0; i < 5; i++) {
 	if(i + 1 === 2)
@@ -82,4 +82,25 @@ for (i = 0; i < 5; i++) {
 	
 	if(i === 3)
 		break
+}
+dict = { 
+  “assets”: {
+    “dollars”: {
+      “amount”: 1620.00
+    },
+    “cryptocurrencies”: [
+      {
+        “bitcoin”: {
+          “amount”: 1.00
+          “usdValue”: 56250
+        }
+      },
+      {
+        “ethereum”: {
+          “amount”: 32
+          “usdValue”: 100032
+        }
+      }
+    ]
+  }
 }
